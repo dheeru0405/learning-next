@@ -9,6 +9,14 @@ export type User = {
   password: string;
 };
 
+export type LatestInvoice = {
+  id: string;
+  name: string;
+  image_url: string;
+  email: string;
+  amount: string;
+  // Add more properties as needed
+};
 export type Customer = {
   id: string;
   name: string;
