@@ -27,3 +27,62 @@ export default function InvoiceStatus({ status }: { status: string }) {
     </span>
   );
 }
+
+
+
+// 'use client'
+// // import { CheckIcon, ClockIcon } from '@heroicons/react/24/outline';
+// import clsx from 'clsx';
+// import { useState } from 'react';
+// import Button from '../components/Button';
+
+// export default function InvoiceStatus({ status }: { status: string }) {
+//   const [text, setText] = useState('');
+//   const [items, setItems] = useState<string[]>([]);
+
+//   const handleAdd = () => {
+//     if (text.trim()) {
+//       setItems([...items, text]);
+//       setText('');
+//     }
+//   };
+  
+//   return (
+//     <div className="flex flex-col gap-4">
+//       {/* New input and button section */}
+//       <div className="flex gap-2">
+//         <input
+//           type="text"
+//           value={text}
+//           onChange={(e) => setText(e.target.value)}
+//           className="border rounded px-2 py-1"
+//         />
+  
+//      <Button 
+//         onClick={handleAdd} 
+//         variant={items.length <= 2 ? "default" : "secondary"}
+//         // disabled={items.length >= 5}
+//       // size={items.length <= 2 ? "small" : "large"}
+//       size="small"
+//       >
+//         Add
+//       </Button>
+ 
+//      </div>
+
+//       {/* Display items */}
+//       <div className="flex flex-col gap-2">
+//         {items.map((item) => (
+//           <div key={item} className="text-sm">{item}</div>
+//         ))}
+//       </div>
+//     </div>
+//   );
+// }
+
+
+
+
+
+  // variant={items.length <= 2 ? "default" : "secondary"}
+
